@@ -22,3 +22,9 @@ Paid books:
 * [rust-learning](https://github.com/ctjhoa/rust-learning)
 * [Rust Cheatsheet](https://cheats.rs/)
 * [Rust module system explained](https://aloso.github.io/2021/03/28/module-system.html)
+
+## Interactive Compilers
+
+* [Explaine.rs](https://jrvidal.github.io/explaine.rs/)
+* [Rust Playground](https://play.rust-lang.org/)
+* [Compiler Explorer](https://gcc.godbolt.org/)
