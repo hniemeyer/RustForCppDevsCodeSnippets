@@ -8,6 +8,7 @@ Free Books:
 * [Rust Book](https://doc.rust-lang.org/book/)
 * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 * [Rust Cookbok](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
+* [Rust Performance](https://nnethercote.github.io/perf-book/introduction.html)
 
 Paid books:
 
