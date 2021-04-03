@@ -1,9 +1,10 @@
+# Wishlist
+
 ## Notes to self
 
 - have type annotations in our copy-pasteable examples to reduce confusion
 
-
-# Ablauf
+## Ablauf
 
 - mini intro: what's Rust and why
 - Mutability
@@ -18,9 +19,8 @@
 - thiserror crate
 - anyhow crate
 - traits & generics
-    * ✨ derive ✨
+  - ✨ derive ✨
 - Iterators and Itertools
-
 
 ## Infrastructure
 
@@ -42,13 +42,13 @@
 - thiserror crate
 - anyhow crate
 - traits & generics
-    * ✨ derive ✨
+  - ✨ derive ✨
 - Iterators and Itertools
 - IDE support
-* R-A away from VSCode?
-* jetbrains rust plugin
-* debugger "just works" in VSCode + R-A
-* vscode crates extension
+- R-A away from VSCode?
+- jetbrains rust plugin
+- debugger "just works" in VSCode + R-A
+- vscode crates extension
 - Cargo.toml vs. CMake
 -> show what Cargo.toml looks like
 - how to add a dep & re-build
@@ -56,5 +56,5 @@
 ## small things
 
 - pattern matching
-    - caution: maybe gotta explain enums too
+  - caution: maybe gotta explain enums too
 - maybe prepare/re-use FFI slide in case of questions
