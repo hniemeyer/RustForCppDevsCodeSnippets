@@ -20,3 +20,5 @@ Paid books:
 
 * [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
 * [rust-learning](https://github.com/ctjhoa/rust-learning)
+* [Rust Cheatsheet](https://cheats.rs/)
+* [Rust module system explained](https://aloso.github.io/2021/03/28/module-system.html)
