@@ -19,6 +19,7 @@ Paid books:
 * [Systems with JT](https://www.youtube.com/user/giard321)
 * [Jon Gjengset](https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ)
 * [Official Rust Channel](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
+* [RustFest Zürich 2017 - A hammer you can only hold by the handle by Andrea Lattuada](https://youtu.be/3Q2hQfYW-XM)
 
 ## Articles/Links/Blogs
 
