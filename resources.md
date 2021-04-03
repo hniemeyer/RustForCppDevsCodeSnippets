@@ -16,6 +16,10 @@ Paid books:
 
 ## YouTube
 
+* [Systems with JT](https://www.youtube.com/user/giard321)
+* [Jon Gjengset](https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ)
+* [Official Rust Channel](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
+
 ## Articles/Links/Blogs
 
 * [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
