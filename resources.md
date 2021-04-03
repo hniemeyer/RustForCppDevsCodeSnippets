@@ -14,3 +14,8 @@ Paid books:
 * [Rust in Action](https://www.manning.com/books/rust-in-action)
 
 ## YouTube
+
+## Articles/Links/Blogs
+
+* [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+* [rust-learning](https://github.com/ctjhoa/rust-learning)
