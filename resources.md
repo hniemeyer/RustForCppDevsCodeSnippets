@@ -26,6 +26,8 @@ Paid books:
 * [rust-learning](https://github.com/ctjhoa/rust-learning)
 * [Rust Cheatsheet](https://cheats.rs/)
 * [Rust module system explained](https://aloso.github.io/2021/03/28/module-system.html)
+* https://embedded-trainings.ferrous-systems.com
+*  https://github.com/ferrous-systems/teaching-material
 
 ## Interactive Compilers
 
