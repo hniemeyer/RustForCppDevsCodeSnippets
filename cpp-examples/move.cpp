@@ -39,5 +39,7 @@ struct Employee {
 int main() {
   auto hendrik = Employee("Hendrik", 101);
   const auto hendrik2 = std::move(hendrik); // move
+  auto hendrik3 = hendrik2;                 // Copy
+  auto hendrik4 = std::move(hendrik2);      // Ooops, cannot move from const
   return 0;
 }
