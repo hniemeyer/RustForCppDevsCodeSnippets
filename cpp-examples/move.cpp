@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <utility>
+#include <vector>
 
 struct Employee {
   std::string name;
@@ -46,6 +47,9 @@ int main() {
       std::move(hendrik2);       // Ooops, cannot move from const will be a copy
   auto paul = create_employee(); // Not a move and not a copy, but return value
                                  // optimization
+
+  std::vector my_employees{Employee{"Tim", 33}, Employee{"Regina", 11}};
+  my_employees.push_back(Employee{"Viola", 1});
 
   return 0;
 }
