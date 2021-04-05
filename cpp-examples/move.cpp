@@ -42,7 +42,8 @@ int main() {
   auto hendrik = Employee("Hendrik", 101);
   const auto hendrik2 = std::move(hendrik); // move
   auto hendrik3 = hendrik2;                 // Copy
-  auto hendrik4 = std::move(hendrik2);      // Ooops, cannot move from const
+  auto hendrik4 =
+      std::move(hendrik2);       // Ooops, cannot move from const will be a copy
   auto paul = create_employee(); // Not a move and not a copy, but return value
                                  // optimization
 
