@@ -1,8 +1,11 @@
+# Wishlist
+
 ## Notes to self
+
 - have type annotations in our copy-pasteable examples to reduce confusion
 
+## Ablauf
 
-# Ablauf
 - mini intro: what's Rust and why
 - Mutability
 - copy & move semantics
@@ -16,15 +19,16 @@
 - thiserror crate
 - anyhow crate
 - traits & generics
-    * ✨ derive ✨
+  - ✨ derive ✨
 - Iterators and Itertools
 
-
 ## Infrastructure
+
 - compiler explorer & rust playground
 
 
 ## Topics
+
 - .. those already covered in the slides
 
 - basic syntax (types, functions, structs, ...)
@@ -38,28 +42,19 @@
 - thiserror crate
 - anyhow crate
 - traits & generics
-    * ✨ derive ✨
+  - ✨ derive ✨
 - Iterators and Itertools
 - IDE support
-* R-A away from VSCode?
-* jetbrains rust plugin
-* debugger "just works" in VSCode + R-A
-* vscode crates extension
+- R-A away from VSCode?
+- jetbrains rust plugin
+- debugger "just works" in VSCode + R-A
+- vscode crates extension
 - Cargo.toml vs. CMake
 -> show what Cargo.toml looks like
 - how to add a dep & re-build
 
 ## small things
+
 - pattern matching
-    - caution: maybe gotta explain enums too
+  - caution: maybe gotta explain enums too
 - maybe prepare/re-use FFI slide in case of questions
-
-## Resources to learn
-- Youtube (Jonathan Turner, "a hammer you can only hold by the handle" https://www.youtube.com/watch?v=3Q2hQfYW-XM&index=9&list=PL85XCvVPmGQj9mqbJizw-zi-EhcpS5jTP about how to build an API that the compiler will guide the user through)
-- Rust book
-- Rust cookbok
-- Rust by example
-- explaine.rs
-- https://embedded-trainings.ferrous-systems.com
-- https://github.com/ferrous-systems/teaching-material
-
