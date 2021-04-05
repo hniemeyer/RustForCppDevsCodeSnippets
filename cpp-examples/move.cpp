@@ -49,7 +49,9 @@ int main() {
                                  // optimization
 
   std::vector my_employees{Employee{"Tim", 33}, Employee{"Regina", 11}};
-  my_employees.push_back(Employee{"Viola", 1});
+  my_employees.push_back(
+      Employee{"Viola", 1}); // std::vector will use moving for resizing if move
+                             // constructur is noexcept
 
   return 0;
 }
