@@ -39,7 +39,7 @@ struct Employee {
 auto create_employee() { return Employee{"Paula", 102}; }
 
 int main() {
-  auto hendrik = Employee("Hendrik", 101);
+  auto hendrik = Employee{"Hendrik", 101};
   const auto hendrik2 = std::move(hendrik); // move
   auto hendrik3 = hendrik2;                 // Copy
   auto hendrik4 =
