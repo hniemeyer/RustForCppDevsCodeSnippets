@@ -18,4 +18,13 @@ fn main() {
         QuadraticSolution::OneSolition(x) => println!("One solution: {}", x),
         QuadraticSolution::TwoSolutions(x,y) => println!("Two solutions: {}, {}", x,y)
     }
+
+    let res2 = if let QuadraticSolution::NoSolution = solve_quadratic_equation(1.0, 1.0, 1.0) {
+        5.0
+    }
+    else {
+        8.0
+    };
+
+    println!("{}",res2);
 }
