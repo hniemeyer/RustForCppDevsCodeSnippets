@@ -6,9 +6,16 @@ enum QuadraticSolution {
 
 fn solve_quadratic_equation(a: f64, b: f64, c: f64) -> QuadraticSolution {
     let discriminant = b * b - 4.0 * a * c;
-    if discriminant <  0.0 { QuadraticSolution::NoSolution }
-    else if discriminant == 0.0 { QuadraticSolution::OneSolition(-b / (2.0 * a))} 
-    else { QuadraticSolution::TwoSolutions((-b + discriminant.sqrt()) / (2.0 * a), (-b - discriminant.sqrt()) / (2.0 * a))}
+    if discriminant < 0.0 {
+        QuadraticSolution::NoSolution
+    } else if discriminant == 0.0 {
+        QuadraticSolution::OneSolition(-b / (2.0 * a))
+    } else {
+        QuadraticSolution::TwoSolutions(
+            (-b + discriminant.sqrt()) / (2.0 * a),
+            (-b - discriminant.sqrt()) / (2.0 * a),
+        )
+    }
 }
 
 fn main() {
@@ -16,15 +23,14 @@ fn main() {
     match res {
         QuadraticSolution::NoSolution => println!("No solution"),
         QuadraticSolution::OneSolition(x) => println!("One solution: {}", x),
-        QuadraticSolution::TwoSolutions(x,y) => println!("Two solutions: {}, {}", x,y)
+        QuadraticSolution::TwoSolutions(x, y) => println!("Two solutions: {}, {}", x, y),
     }
 
     let res2 = if let QuadraticSolution::NoSolution = solve_quadratic_equation(1.0, 1.0, 1.0) {
         5.0
-    }
-    else {
+    } else {
         8.0
     };
 
-    println!("{}",res2);
+    println!("{}", res2);
 }
