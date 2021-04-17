@@ -20,3 +20,11 @@ path = "src/ownership_borrowing_solution_unidiomatic.rs"
 [[bin]]
 name = "ownership_borrowing_solution_1"
 path = "src/ownership_borrowing_solution_1.rs"
+
+[[bin]]
+name = "mutability"
+path = "src/mutability.rs"
+
+[[bin]]
+name = "mutability_solution"
+path = "src/mutability_solution.rs"
