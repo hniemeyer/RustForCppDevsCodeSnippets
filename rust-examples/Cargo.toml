@@ -18,9 +18,17 @@ name = "ownership_borrowing_solution_unidiomatic"
 path = "src/ownership_borrowing_solution_unidiomatic.rs"
 
 [[bin]]
-name = "ownership_borrowing_solution_1"
-path = "src/ownership_borrowing_solution_1.rs"
+name = "ownership_borrowing_solution"
+path = "src/ownership_borrowing_solution.rs"
 
 [[bin]]
 name = "vector_example"
 path = "src/vector_example.rs"
+
+[[bin]]
+name = "tests"
+path = "src/tests.rs"
+
+[[lib]]
+name = "tests_solution"
+path = "src/tests_solution.rs"
