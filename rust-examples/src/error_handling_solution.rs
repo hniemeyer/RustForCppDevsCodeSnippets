@@ -7,18 +7,16 @@ fn open_file() -> Result<File, Error> {
 }
 
 fn bubble_up() -> Result<File, Error> {
-    // TODO: how can we use `?` to shorten the error handling here?
-    let file = match open_file() {
-        Ok(file) => file,
-        Err(e) => return Err(e),
-    };
+    let file = open_file()?;
 
     println!("Found file: {:?}", file);
     Ok(file)
 }
 
 fn panic_on_err() {
-    // TODO: fail loudly if `file_content()` fails, by using .unwrap() or triggering a panic!()
+    let file_content = open_file().unwrap();
+
+    println!("File contains {:?}", file_content);
 }
 
 fn main() {
