@@ -29,6 +29,6 @@ path = "src/vector_example.rs"
 name = "tests"
 path = "src/tests.rs"
 
-[[lib]]
+[[bin]]
 name = "tests_solution"
 path = "src/tests_solution.rs"
