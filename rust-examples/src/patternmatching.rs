@@ -6,12 +6,10 @@ enum QuadraticSolution {
 
 fn solve_quadratic_equation(a: f64, b: f64, c: f64) -> QuadraticSolution {
     let discriminant = b * b - 4.0 * a * c;
-    if discriminant < 0.0 {
-        QuadraticSolution::NoSolution
-    } else if discriminant == 0.0 {
-        QuadraticSolution::OneSolition(-b / (2.0 * a))
-    } else {
-        QuadraticSolution::TwoSolutions(
+    match discriminant {
+        x if x < 0.0 => QuadraticSolution::NoSolution,
+        x if x == 0.0 => QuadraticSolution::OneSolition(-b / (2.0 * a)),
+        _ => QuadraticSolution::TwoSolutions(
             (-b + discriminant.sqrt()) / (2.0 * a),
             (-b - discriminant.sqrt()) / (2.0 * a),
         )
