@@ -9,7 +9,6 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0"
 
-
 [[bin]]
 name = "ownership_borrowing"
 path = "src/ownership_borrowing.rs"
@@ -31,6 +30,10 @@ name = "mutability_solution"
 path = "src/mutability_solution.rs"
 
 [[bin]]
+name = "error_handling_example"
+path = "src/error_handling.rs"
+
+[[bin]]
 name = "vector_example"
 path = "src/vector_example.rs"
 
@@ -49,6 +52,10 @@ path = "src/error_handling.rs"
 [[bin]]
 name = "error_handling_solution"
 path = "src/error_handling_solution.rs"
+
+[[bin]]
+name = "error_handling_anyhow"
+path = "src/error_handling_anyhow.rs"
 
 [[bin]]
 name = "pattern_matching_intro"
