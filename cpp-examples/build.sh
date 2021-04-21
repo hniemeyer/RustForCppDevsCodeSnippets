@@ -9,5 +9,4 @@ fi
 mkdir build
 cd build
 cmake -GNinja -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_CXX_COMPILER:STRING=$GPP_PATH ..
-
 cd ..
