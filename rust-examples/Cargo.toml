@@ -49,3 +49,15 @@ path = "src/error_handling.rs"
 [[bin]]
 name = "error_handling_solution"
 path = "src/error_handling_solution.rs"
+
+[[bin]]
+name = "pattern_matching_intro"
+path = "src/pattern_matching_intro.rs"
+
+[[bin]]
+name = "pattern_matching_intro_solution"
+path = "src/pattern_matching_intro_solution.rs"
+
+[[bin]]
+name = "pattern_matching_intro_solution_extension"
+path = "src/pattern_matching_intro_solution_extension.rs"
