@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
+anyhow = "1.0"
 
 [[bin]]
 name = "ownership_borrowing"
@@ -18,8 +18,20 @@ name = "ownership_borrowing_solution_unidiomatic"
 path = "src/ownership_borrowing_solution_unidiomatic.rs"
 
 [[bin]]
-name = "ownership_borrowing_solution_1"
-path = "src/ownership_borrowing_solution_1.rs"
+name = "ownership_borrowing_solution"
+path = "src/ownership_borrowing_solution.rs"
+
+[[bin]]
+name = "mutability"
+path = "src/mutability.rs"
+
+[[bin]]
+name = "mutability_solution"
+path = "src/mutability_solution.rs"
+
+[[bin]]
+name = "error_handling_example"
+path = "src/error_handling.rs"
 
 [[bin]]
 name = "vector_example"
@@ -28,3 +40,35 @@ path = "src/vector_example.rs"
 [[bin]]
 name = "patternmatching_example"
 path = "src/patternmatching.rs"
+
+[[bin]]
+name = "tests"
+path = "src/tests.rs"
+
+[[bin]]
+name = "tests_solution"
+path = "src/tests_solution.rs"
+
+[[bin]]
+name = "error_handling"
+path = "src/error_handling.rs"
+
+[[bin]]
+name = "error_handling_solution"
+path = "src/error_handling_solution.rs"
+
+[[bin]]
+name = "error_handling_anyhow"
+path = "src/error_handling_anyhow.rs"
+
+[[bin]]
+name = "pattern_matching_intro"
+path = "src/pattern_matching_intro.rs"
+
+[[bin]]
+name = "pattern_matching_intro_solution"
+path = "src/pattern_matching_intro_solution.rs"
+
+[[bin]]
+name = "pattern_matching_intro_solution_extension"
+path = "src/pattern_matching_intro_solution_extension.rs"
