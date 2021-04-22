@@ -7,7 +7,7 @@ void print_shopping_list(std::vector<std::string> const &shopping_list) {
         std::cout << "\t-- nothing\n";
     }
 
-    for (std::string item: shopping_list) {
+    for (const auto& item: shopping_list) {
         std::cout << "\t* " << item << '\n';
     }
 }
